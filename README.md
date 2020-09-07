@@ -11,6 +11,13 @@ Number of Total and Closed issues for label groups.
 **Header**: ProjectID,TotalIssues,Closed,NoLabelTotal,NoLabelClosed,SingleLabelTotal,SingleLabelClosed,MultiLabelTotal,MultiLabelClosed
 - project_issue_close_stat.csv
 
+### Files for Label Analysis Results
+
+Label analysis results of [VS Code](https://github.com/microsoft/vscode) and [Dart-lang](https://github.com/dart-lang/sdk).  
+In header, tag1 and tag2 indicate main and sub categories respectively.  
+**Header**: tag1, tag2, label, description, color, #open issues, #closed issues, #total issues
+- tagging-vs-code.csv
+- tagging-dart-lang.csv
 
 ### Files for Label Category Information
 *_full contains a full list, *_multi_only contains multiple labels only.  
